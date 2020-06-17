@@ -2,7 +2,7 @@
 
 Basic Keras model for the proposed Network in paper <a href=https://arxiv.org/pdf/1312.4659v3.pdf >DeepPose: Human Pose Estimation via Deep Neural Networks. </a>
 
-10k images from <a href=http://human-pose.mpi-inf.mpg.de/ > MPII dataset </a> were used for training and full body images from <a href=https://bensapp.github.io/flic-dataset.html> FLIC dataset </a> images were used for visual performance testing. No performance benchmarks are evaluated as of now.
+10k images from <a href=http://human-pose.mpi-inf.mpg.de/ > MPII dataset </a> were used for training and full body images from <a href=https://bensapp.github.io/flic-dataset.html> FLIC dataset </a> images were used for visual performance testing. No performance benchmarks are evaluated as of now. Simple 1-pass non-cascading architecture was used.
 
 MPII dataset matlab annotations file was preprocessed using https://github.com/asanakoy/deeppose_tf/blob/master/datasets/mpii_dataset.py
 to obtain cleaned datampii.json.
